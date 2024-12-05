@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jody</title>
+    <!-- Link to swiper Js -->
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <!-- Email Js link -->
+    <!-- Look into possibly hiding the public key or if it is necessary
+    Why does this work without the defer keyword? -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
+    <!-- Sweet Alert script in between email js 
+        Why does this work without the defer keyword? -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+    <!-- Email JS Cont 
+    Why does this work without the defer keyword?-->
+    <script type="text/javascript" >
+        (function() {
+        emailjs.init('OgPMIR_-BPB-ae3Hi');
+        })();
+    </script>
+
+    <!-- Link to js  -->
+    <script src="js/main.js" defer></script>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link to swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Link to Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--DevIcon-->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+</head>
+<body>
+    <!-- Scroll Top actually is a bottom scroll item -->
+    <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Jody</a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <!-- Go back and Add Img here -->
+            <!-- <div class="home-img"> 
+            </div> -->
+            <div class="home-text">
+                <h3>Hello👋</h3>
+                <h2>I'm <span class="color">Jody</span></h2>
+                <p> 
+                    I am a <span class="color">Software Engineer </span>that enjoys building <span class="color"> web applications</span>  with great user experiences.
+                    <br> <span class="color">Here's</span> a bit more <span class="color">about me</span>.
+                </p>
+                <!-- Social -->
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/jodyhamberry/"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/jhamberr"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class="fa-solid fa-blog"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- About Section -->
+ <section class="about container" id="about">
+    <!-- Heading -->
+    <h2 class="heading">About</h2>
+    <!-- About Content -->
+    <div class="about-content">
+        <!-- about data (grid) -->
+        <div class="about-data">
+            <span>About Me</span>
+            <h2>Full Stack <br/>Software Engineer</h2>
+            <a href="Deliverables/HamberryResume.docx" class="btn" download="">
+                Download Resume
+                <i class='bx bx-download'></i>
+            </a>
+        </div>
+        <!-- about text (grid)-->
+        <div class="about-text">
+            <p>Hello! I'm Jody Hamberry, a Full Stack Software Engineer</p>
+            <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to build products that provide real world value and great user experiences.</p>
+        </div>
+    </div>
+ </section>
+ <!-- Services section-->
+ <section class="services container" id="services">
+    <!-- heading -->
+    <h2 class="heading">Services</h2>
+    <!-- services content -->
+    <div class="services-content">
+        <!--Services Box-->
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h2>Web Development</h2>
+            <p> I have experience building end to end websites using ASP.Net Core, Django, and React</p>
+        </div>
+
+        <div>
+            
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-cloud'></i>
+            <h2>Cloud</h2>
+            <p> I have experience using cloud platforms such as AWS</p>
+        </div>
+
+    </div>
+ </section>
+
+ <!--Skills Section 2-->
+ <h1 class ="heading">My Skills</h1>
+<section class="my-skills">
+    <div class="icons-container">
+        <div class="icon">
+            <img src="img/html.png" alt="HTML5">
+        </div>
+        <div class="icon">
+            <img src="img/css.png" alt="CSS3">
+        </div>
+        <div class="icon">
+            <img src="img/javascript.png" alt="GitHub">
+        </div>
+        <div class="icon">
+            <img src="img/node.png" alt="GitHub">
+        </div>
+        <div class="icon">
+            <img src="img/git.png" alt="Git">
+        </div>
+        <div class="icon">
+            <img src="img/github.svg" alt="GitHub">
+        </div>
+        <div class="icon">
+            <img src="img/python.png" alt="GitHub">
+        </div>
+        <div class="icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="GitHub">
+        </div>
+        <div class="icon">
+            <img src="img/react.png" alt="React">
+        </div>
+        <div class="icon">
+            <img src="img/asp2.png" alt="React">
+        </div>
+        
+        
+        <div class="icon">
+            <img src="img/cpp.png" alt="GitHub">
+        </div>
+        <div class="icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="GitHub">
+        </div>
+    </div>
+</section>
+
+ <!-- Portfolio -->
+ <section class="portfolio container" id="portfolio">
+    <!-- Heading -->
+    <h2 class="heading">Portfolio</h2>
+    <!-- Portfolio Content -->
+    <div class="portfolio-content">
+        <div class="portfolio-box">
+            <img src="img/EcommPicture.png" alt="" class="portfolio-img">
+            <!-- overlay -->
+            <div class="portfolio-overlay">
+                <h2>E-Commerce</h2>
+                <a href="Deliverables/EcommercePresentation.pptx">
+                    <i class='bx bx-link-alt'></i>
+                </a>
+            </div>
+        </div>
+
+        
+
+    </div>    
+ </section>
+ 
+    <!-- Contact Form Section-->
+    <section class="contact container" id="contact">
+        <!-- Heading -->
+        <h2 class="heading">Contact</h2>
+        <!-- Contact Form -->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email" class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+    <!-- Footer -->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="mailto:jodyhamberry@gmail.com"><i class='bx bx-envelope'></i></a>
+            <a href="https://www.linkedin.com/in/jodyhamberry/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/jhamberr"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class="fa-solid fa-blog"></i></a>
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <!-- Copyright -->
+        <p>&copy Jody Hamberry</p>
+    </section>
+</body>
+</html>
